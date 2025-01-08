@@ -1,0 +1,50 @@
+:root{
+/* COLORS */
+
+    --background-default: #F5F4f0;
+    --border-primary: #D9D9D9;
+
+    /* Text */
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+
+    /* Accent*/
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+
+
+/* TIPOGRAPHY */
+
+    --font-family: 'Open Sans', sans-serif, helvetica, serif;
+    
+    /* Heading 1 */
+    --heading-1-size: 2.25em;
+    --heading-1-weight: bold;
+
+    /* Heading 2 */
+    --heading-2-size: 2em;
+    --heading-2-weight: bold;
+
+    /* Heading 3 */
+    --heading-3-size: 1.75em;
+    --heading-3-weight: bold;
+
+    /* Headline */
+    --headline-size: 1em;
+    --headline-weight: bold;
+
+    /* Paragraph */
+    --paragraph-size: 1em;
+    --paragraph-weight: normal;
+
+    /* Subtitle */
+    --subtitle-size: 1em;
+    --subtitle-weight: italic;
+}
