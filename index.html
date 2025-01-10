@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0 ,user-scalable=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=1.0"/>
     <title>Turistic Locals</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <main class="main_container">
+    <main>
       <!-- HEADER -->
       <header id="header_container">
-
-        <span class="headline">SUA PRÓXIMA VIAGEM:</span>
+        <h2 class="headline">SUA PRÓXIMA VIAGEM:</h2>
         <h1 class="header_title">Conheça Busan</h1>
 
         <img
@@ -30,14 +34,13 @@
           rua. Aqui, exploramos a segunda cidade da Coreia do Sul e descobrimos
           as suas ofertas culinárias.
         </p>
-
       </header>
 
       <div class="divider_line"></div>
 
-      <section class="locals_destinations_container">
+      <section>
         <!-- LIST OF CONTENTS -->
-        <ol id="list_of_locals_destinations">
+        <ol>
           <!-- List item header -->
           <li>
             <article id="destination_locals_header">
@@ -58,17 +61,15 @@
                 arquitetura impressionante que irá encantar os fotógrafos.
               </p>
             </article>
-
           </li>
 
           <!-- List item 1 -->
           <li>
-
             <article class="turistic_locals_containers">
               <img
                 class="image_sizing"
                 src="images/haedong_yonggungsa_temple.png"
-                alt="vista do templo haedong yonggungsa"
+                alt="Vista panorâmica do templo Haedong Yonggungsa à beira-mar em Busan."
               />
 
               <h3 class="turistic_locals_titles">
@@ -82,18 +83,17 @@
                 montanhas do outro.
               </p>
 
-              <p class="paragraph_bolder">Bom para:</p>
               <ul class="list_good_for">
+                <p class="paragraph_bolder">Bom para:</p>
+
                 <li class="accent_blue_color">História</li>
               </ul>
             </article>
-
           </li>
 
           <!-- List item 2 -->
           <li>
             <article class="turistic_locals_containers">
-
               <img
                 class="image_sizing"
                 src="images/beomeo_sa_temple.png"
@@ -109,18 +109,16 @@
                 Dinastia Joseon.
               </p>
 
-              <p class="paragraph_bolder">Bom para:</p>
               <ul class="list_good_for">
+                <p class="paragraph_bolder">Bom para:</p>
                 <li class="accent_blue_color">História</li>
               </ul>
-
             </article>
           </li>
 
           <!-- List item 3 -->
           <li>
             <article class="turistic_locals_containers">
-
               <img
                 class="image_sizing"
                 src="images/yongdusan_park.png"
@@ -137,13 +135,13 @@
                 veleiros coreanos no Exhibition Hall of World Model Boats.
               </p>
 
-              <p class="paragraph_bolder">Bom para:</p>
               <ul class="list_good_for">
+                <p class="paragraph_bolder">Bom para:</p>
+
                 <li class="accent_purple_color">Casais</li>
                 <li class="accent_orange_color">Famílias</li>
                 <li class="accent_pink_color">Orçamento</li>
               </ul>
-
             </article>
           </li>
         </ol>
@@ -154,7 +152,7 @@
 
     <!-- FOOTER -->
     <footer class="footer_container">
-      <p class="paragraphs_content">
+      <p class="paragraphs_content footer_paragraph">
         As melhores coisas para fazer em Busan mostram a reputação da cidade
         como um importante porto marítimo na Ásia. Frequentemente vista como a
         essência da Coreia do Sul, você experimentará uma atmosfera única em
@@ -162,9 +160,14 @@
         público cosmopolita o ano todo.
       </p>
 
-      <span class="footer_paragraph"
-        >Feito com <img class="image_footer_heart" src="icons/heart.svg" alt="coração pequeno" /> pela
-        Rocketseat</span
+      <p class="credits"
+        >Feito com
+        <img
+          class="image_footer_heart"
+          src="icons/heart.svg"
+          alt="coração pequeno"
+        />
+        pela Rocketseat</p
       >
     </footer>
   </body>
