@@ -186,6 +186,10 @@ body{
 
 }
 
+ul > li::marker {
+    color: #333333;
+}
+
 .accent_blue_color{
     font-size: var(--paragraph-bolder-size);
     font-weight: var(--paragraph-bolder-weight);
